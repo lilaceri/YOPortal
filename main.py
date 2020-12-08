@@ -1,7 +1,5 @@
 # Portal app to work with goals database
-def display_ui():
-  pass
-
+from datahandlers import get_data
 
 # main program
-display_ui()
+print(get_data("users"))
