@@ -1,5 +1,6 @@
 import csv
 
+# get data from given tablename
 def get_data(tablename):
   filename = 'data/yop-' + tablename + '.csv'
   with open(filename) as csv_file:
